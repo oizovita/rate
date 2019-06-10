@@ -1,1 +1,1 @@
-web: vendor/bin/heroku-php-apache2 rate/
+web: vendor/bin/heroku-php-apache2 /view.php
