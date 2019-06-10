@@ -1,14 +1,14 @@
 <?php
 define('SMARTY_DIR', '/usr/local/lib/smarty-3.1.33/libs/');
-require('vendor/autoload.php');
+require('../vendor/autoload.php');
 
 require_once(SMARTY_DIR . 'Smarty.class.php');
 
 $smarty = new Smarty();
-$smarty->template_dir = '/var/www/html/rate/templates/';
-$smarty->compile_dir = '/var/www/html/rate/templates_c/';
-$smarty->config_dir = '/var/www/html/rate/configs/';
-$smarty->cache_dir = '/var/www/html/rate/cache/';
+$smarty->template_dir = '/var/www/html/rate/web/templates/';
+$smarty->compile_dir = '/var/www/html/rate/web/templates_c/';
+$smarty->config_dir = '/var/www/html/rate/web/configs/';
+$smarty->cache_dir = '/var/www/html/rate/web/cache/';
 
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
