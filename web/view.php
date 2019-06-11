@@ -1,6 +1,7 @@
 <?php
-define('SMARTY_DIR', '/usr/local/lib/smarty-3.1.33/libs/');
 require('../vendor/autoload.php');
+define('SMARTY_DIR', '../vendor/smarty/smarty/libs/');
+
 
 require_once(SMARTY_DIR . 'Smarty.class.php');
 
