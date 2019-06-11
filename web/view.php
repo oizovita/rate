@@ -6,10 +6,10 @@ define('SMARTY_DIR', '../vendor/smarty/smarty/libs/');
 require_once(SMARTY_DIR . 'Smarty.class.php');
 
 $smarty = new Smarty();
-$smarty->template_dir = '/var/www/html/rate/web/templates/';
-$smarty->compile_dir = '/var/www/html/rate/web/templates_c/';
-$smarty->config_dir = '/var/www/html/rate/web/configs/';
-$smarty->cache_dir = '/var/www/html/rate/web/cache/';
+$smarty->template_dir = 'templates/';
+$smarty->compile_dir = 'templates_c/';
+$smarty->config_dir = 'configs/';
+$smarty->cache_dir = 'cache/';
 
 
 if($_SERVER['REQUEST_METHOD'] == 'POST') {
